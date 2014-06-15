@@ -1,6 +1,6 @@
 {
   "name": "rgsms",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "CLI application for sending sms through Google calendar.",
   "preferGlobal": "true",
   "main": "./bin/index.js",
