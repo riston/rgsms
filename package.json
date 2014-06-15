@@ -1,9 +1,13 @@
 {
   "name": "rgsms",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI application for sending sms through Google calendar.",
   "preferGlobal": "true",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riston/rgsms.git"
+  },
   "scripts": {
     "test": "npm test"
   },
