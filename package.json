@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "CLI application for sending sms through Google calendar.",
   "preferGlobal": "true",
-  "main": "index.js",
+  "main": "./bin/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/riston/rgsms.git"
@@ -17,12 +17,12 @@
   ],
   "author": "riston",
   "license": "GPL",
-  "main": "./bin/index.js",
   "bin": {
     "rgsms": "./bin/index.js"
   },
   "dependencies": {
     "commander": "^2.2.0",
+    "googleapis": "^0.7.0",
     "lodash": "^2.4.1"
   }
 }
